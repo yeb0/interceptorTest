@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <h2> 내 정보 </h2>
+  <div th:text="${user.email}"></div>
+  <div th:text="${user.password}"></div>
+  <div th:text="${user.name}"></div>
+
+    <a href="logout"><button>로그아웃하기</button></a>
+</body>
+</html>
